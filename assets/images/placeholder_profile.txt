@@ -1,0 +1,5 @@
+Silakan tambahkan foto profile Anda di folder ini dengan nama:
+- profile.jpg atau profile.png (untuk foto Anda di splash screen dan biodata)
+- contact_1.jpg sampai contact_15.jpg (untuk foto kontak)
+
+File placeholder ini hanya sebagai penanda folder.

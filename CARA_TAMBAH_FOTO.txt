@@ -1,0 +1,86 @@
+===================================================================
+            INSTRUKSI MENAMBAHKAN FOTO PROFILE
+===================================================================
+
+LANGKAH 1: SIAPKAN FOTO ANDA
+-----------------------------
+1. Siapkan foto Anda dalam format JPG atau PNG
+2. Ukuran yang direkomendasikan: 500x500 pixels atau lebih
+3. Pastikan foto terlihat jelas dan professional
+
+LANGKAH 2: SIMPAN FOTO KE FOLDER ASSETS
+---------------------------------------
+1. Buka folder project: 
+   e:\Bayu\Koding\Joki\Mobile\wibi_app\assets\images\
+
+2. Copy paste foto Anda ke folder tersebut
+
+3. Rename foto menjadi salah satu dari:
+   - profile.png (jika format PNG)
+   - profile.jpg (jika format JPG/JPEG)
+
+LANGKAH 3: UPDATE INFORMASI PRIBADI
+-----------------------------------
+1. Buka file: lib\utils\constants.dart
+
+2. Cari baris berikut dan update:
+   
+   static const String studentName = 'Nama Anda';  ← GANTI dengan nama Anda
+   static const String studentNIM = '123456789';   ← GANTI dengan NIM Anda
+
+3. Save file
+
+LANGKAH 4: JALANKAN APLIKASI
+----------------------------
+1. Buka terminal di folder project
+
+2. Jalankan command:
+   flutter pub get
+   flutter run
+
+3. Atau di VS Code: Tekan F5
+
+===================================================================
+
+CATATAN PENTING:
+- Jika tidak menambahkan foto, aplikasi tetap bisa jalan dengan icon default
+- Format yang didukung: .png, .jpg, .jpeg
+- Nama file HARUS: profile.png atau profile.jpg (huruf kecil semua)
+
+===================================================================
+
+FOTO TAMBAHAN (OPTIONAL):
+-------------------------
+Untuk hasil yang lebih baik, Anda bisa tambahkan:
+
+1. Foto Kontak (15 file):
+   - contact_1.png sampai contact_15.png
+   - Simpan di: assets\images\
+   
+2. Gambar Berita (10 file):
+   - news_1.png sampai news_10.png
+   - Simpan di: assets\images\
+
+Jika tidak ada, aplikasi akan menggunakan placeholder otomatis.
+
+===================================================================
+
+STRUKTUR FOLDER AKHIR:
+---------------------
+assets/
+└── images/
+    ├── profile.png          ← WAJIB (foto Anda)
+    ├── contact_1.png        ← Optional
+    ├── contact_2.png        ← Optional
+    ├── ...
+    ├── contact_15.png       ← Optional
+    ├── news_1.png           ← Optional
+    ├── ...
+    └── news_10.png          ← Optional
+
+===================================================================
+
+SELESAI!
+Aplikasi siap dijalankan setelah update nama, NIM, dan foto profile.
+
+===================================================================
