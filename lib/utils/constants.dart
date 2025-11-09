@@ -5,7 +5,7 @@ class AppConstants {
   static const String appTitle = 'WIBI APP';
   static const String studentName = 'Wibi Ataya Sani';
   static const String studentNIM = '152022063';
-  static const String profileImagePath = 'assets/images/profile.png';
+  static const String profileImagePath = 'assets/images/profile.jpg';
 
   // Colors
   static const Color primaryColor = Color(0xFF6C63FF);
