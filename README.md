@@ -68,33 +68,7 @@ Halaman pertama yang muncul saat aplikasi dibuka. Splash screen ditampilkan sela
 
 ---
 
-### 2. Dashboard dengan Bottom Navigation
-
-![Dashboard](screenshots/dashboard.png)
-
-**Deskripsi:**
-Halaman utama aplikasi yang menggunakan Bottom Navigation Bar dengan 5 menu utama. Dashboard mengimplementasikan fragment concept dimana setiap menu menampilkan halaman yang berbeda tanpa reload ulang aplikasi. Navigation bar menggunakan design rounded top corners dengan shadow effect untuk memberikan kesan floating.
-
-**Fitur:**
-
-- Bottom Navigation Bar dengan 5 menu (Biodata, Kontak, Kalkulator, Cuaca, Berita)
-- Active dan inactive state dengan color differentiation
-- Icon outline untuk inactive, filled untuk active state
-- Smooth transition menggunakan `IndexedStack`
-- Custom styling dengan rounded top corners
-- Shadow effect untuk depth perception
-- Google Fonts (Poppins) untuk consistent typography
-
-**Teknologi:**
-
-- `BottomNavigationBar` widget untuk navigation
-- `IndexedStack` untuk efficient screen switching tanpa rebuild
-- Material Design 3 components
-- Custom theme dengan color scheme consistency
-
----
-
-### 3. Halaman Biodata
+### 2. Halaman Biodata
 
 ![Biodata Screen](screenshots/biodata_screen.png)
 
@@ -129,7 +103,7 @@ Halaman form biodata yang comprehensive dengan berbagai jenis input field. Halam
 
 ---
 
-### 4. Halaman Kontak
+### 3. Halaman Kontak
 
 ![Contact Screen](screenshots/contact_screen.png)
 
@@ -165,7 +139,7 @@ Setiap kontak memiliki: Name, Phone Number, Image Path, dan Role (Manager, Desig
 
 ---
 
-### 5. Halaman Kalkulator
+### 4. Halaman Kalkulator
 
 ![Calculator Screen](screenshots/calculator_screen.png)
 
@@ -207,7 +181,7 @@ Kalkulator sederhana namun fungsional dengan design yang clean dan modern. Mengg
 
 ---
 
-### 6. Halaman Cuaca
+### 5. Halaman Cuaca
 
 ![Weather Screen](screenshots/weather_screen.png)
 
@@ -255,7 +229,7 @@ Halaman informasi cuaca dengan design yang menarik menggunakan gradient backgrou
 
 ---
 
-### 7. Halaman Berita
+### 6. Halaman Berita
 
 ![News Screen](screenshots/news_screen.png)
 
@@ -389,32 +363,26 @@ dependencies:
 
 ### Installation
 
-1. Clone atau download repository
-
-```bash
-cd e:\Bayu\Koding\Joki\Mobile\wibi_app
-```
-
-2. Install dependencies
+1. Install dependencies
 
 ```bash
 flutter pub get
 ```
 
-3. **PENTING:** Update informasi pribadi Anda
+2. **PENTING:** Update informasi pribadi Anda
 
    Edit file `lib/utils/constants.dart`:
 
    ```dart
-   static const String studentName = 'Nama Anda';  // Ganti dengan nama Anda
-   static const String studentNIM = '123456789';    // Ganti dengan NIM Anda
+   static const String studentName = 'Wibi Ataya';
+   static const String studentNIM = '152022063';
    ```
 
-4. Tambahkan foto profile (optional)
+3. Tambahkan foto profile (optional)
 
    Simpan foto di `assets/images/profile.png`
 
-5. Run aplikasi
+4. Run aplikasi
 
 ```bash
 flutter run
@@ -493,12 +461,4 @@ A: Edit `lib/utils/constants.dart` bagian Colors
 - **Type:** Flutter Mobile Application
 - **Purpose:** Tugas Kuliah Mobile Programming
 
-## 📄 License
-
-Educational Purpose - Tugas Kuliah
-
----
-
 **Made with ❤️ using Flutter**
-
-_Update nama dan NIM Anda sebelum menjalankan aplikasi!_
